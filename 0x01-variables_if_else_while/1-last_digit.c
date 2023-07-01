@@ -15,12 +15,12 @@ int lastDigit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-lastDigit = abs(n) % 10;
+lastDigit = n % 10;
 
 printf("Last digit of %d is ", n);
 
-if (n < 0)
-printf("-");
+if (lastDigit < 0)
+lastDigit *= -1;
 
 printf("%d and is ", lastDigit);
 
@@ -33,3 +33,4 @@ printf("less than 6 and not 0\n");
 
 return (0);
 }
+
