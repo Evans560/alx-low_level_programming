@@ -1,40 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Prints nmbers from 0 to 9.
- * Return: Always 0 9Success)
+ * main - Prints number from o - 9.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-putchar('0');
+int i;
+for (i = 48; i < 58; i++)
+{
 putchar('\n');
-
-putchar('1');
-putchar('\n');
-
-putchar('2');
-putchar('\n');
-
-putchar('3');
-putchar('\n');
-
-putchar('4');
-putchar('\n');
-
-putchar('5');
-putchar('\n');
-
-putchar('6');
-putchar('\n');
-
-putchar('7');
-putchar('\n');
-
-putchar('8');
-putchar('\n');
-
-putchar('9')
-putchar('\n');
-
 return (0);
 }
