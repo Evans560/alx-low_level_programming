@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers from 0 - 9.
+ * main - Prints numbers from 0 - 9 without newlines.
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 int num;
 for (num = 0; num < 10; num++)
 {
-printf("%d\n", num);
+printf("%d", num);
 }
 
 return (0);
